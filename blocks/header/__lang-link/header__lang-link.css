@@ -9,7 +9,7 @@
   transition: ease-in-out .335s;
   opacity: .8;
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 24px;

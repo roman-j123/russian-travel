@@ -1,0 +1,17 @@
+.lead__title {
+  margin: 0 auto 32px;
+  max-width: 720px;
+  font-size: 96px;
+  line-height: 100px;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .lead__title {
+    margin: 0 auto 16px;
+    max-width: calc(100% - 32px);
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
