@@ -20,6 +20,12 @@
     line-height: 31px;
   }
 }
+@media (min-width: 426px) and (max-width: 490px) {
+  .lead__subtitle {
+    font-size: 26px;
+    font-weight: 30px;
+  }
+}
 @media (max-width: 425px) {
   .lead__subtitle {
     margin: 0 auto 40px;
