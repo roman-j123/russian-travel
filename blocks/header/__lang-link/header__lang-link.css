@@ -5,10 +5,6 @@
   color: #ffffff;
   text-decoration: none;
 }
-.header__lang-link:hover {
-  transition: ease-in-out .335s;
-  opacity: .8;
-}
 @media (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;

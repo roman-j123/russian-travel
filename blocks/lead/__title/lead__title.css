@@ -7,10 +7,17 @@
   color: #ffffff;
   text-align: center;
 }
-@media (max-width: 767px) {
+@media (min-width: 426px) and (max-width: 768px) {
+  .lead__title {
+    max-width: 480px;
+    font-size: 60px;
+    line-height: 64px;
+  }
+}
+@media (max-width: 425px) {
   .lead__title {
     margin: 0 auto 16px;
-    max-width: calc(100% - 32px);
+    max-width: 288px;
     font-size: 40px;
     line-height: 44px;
   }

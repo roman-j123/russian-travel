@@ -2,3 +2,18 @@
   max-width: 984px;
   margin: 0 auto;
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .lead {
+    max-width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .lead {
+    max-width: 100%;
+  }
+}
