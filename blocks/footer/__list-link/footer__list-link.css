@@ -1,0 +1,12 @@
+.footer__list-link {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-content: center;
+  list-style: none;
+}
+@media (max-width: 425px) {
+  .footer__list-link {
+    flex-direction: column;
+  }
+}
