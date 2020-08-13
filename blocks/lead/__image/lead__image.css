@@ -20,6 +20,7 @@
   .lead__image {
     margin: 0 auto 8px;
     max-height: 200px;
+    max-width: 425px;
   }
 }
 
